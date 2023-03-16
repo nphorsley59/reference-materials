@@ -8,19 +8,19 @@ Tmux also decouples your programs from the main terminal, protecting them from a
 In addition to its benefits with remote connections, tmux's speed and flexibility make it a fantastic tool to manage multiple terminals on your local machine, similar to a window manager. <br> 
 
 ### Setup and Navigation
-1. Create a named session <br>
+Create a named session <br>
 `tmux new -s {session-name}` <br>
 
-2. Detach from current session <br>
+Detach from current session <br>
 `ctrl + b, d` <br> 
 
-3. List available sessions <br>
+List available sessions <br>
 `tmux ls` <br>
 
-4. Attach to a named session <br>
+Attach to a named session <br>
 `tmux attach -t {session-name}` <br>
 
-5. Kill a named session <br>
+Kill a named session <br>
 `tmux kill-session -t {session-name}` <br>
 
 ### Window and Pane Management
