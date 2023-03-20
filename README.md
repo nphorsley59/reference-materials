@@ -49,3 +49,6 @@ List available windows <br>
 
 
 # venv
+
+
+# git
