@@ -49,6 +49,29 @@ List available windows <br>
 
 
 # venv
+Tools such as venv and virtualenv support the creation of lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories. A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available. <br>
 
+The process for creating and activating a virtual environment varies by tool and OS. <br>
+
+### Mac OS
+Install virtualenv to system Python <br>
+`pip install virtualenv` <br>
+
+NOTE: A project virtual environment should be created at the project root. <br>
+
+Create a new virtual environment <br>
+`python{version} -m venv {venv-name}` <br>
+
+Activate virtual environment <br>
+`source venv/bin/activate` <br>
+
+### Package Management
+When used from within an active virtual environment, common installation tools such as pip will install Python packages into a virtual environment without needing to be told to do so explicitly. <br>
+
+Install specific package <br>
+`pip install <package-name>`
+
+Install packages from a requirements.txt file
+`pip install -r requirements.txt`
 
 # git
