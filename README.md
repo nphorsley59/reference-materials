@@ -1,5 +1,17 @@
 # <div align="center">Dev Workflow Reference Materials</div>
 
+# Writing Code (PyCharm, Vim/NeoVim)
+
+### PyCharm
+PyCharm is a hybrid platform developed by JetBrains as an IDE for Python. It provides users with a beginner-friendly, streamlined development environment. <br>
+
+### Vim/NeoVim
+Vim/NeoVim are highly configurable text editors built on Unix Vi that can be used for Python development. With proper configuration, they can be a fast and powerful alternative to an IDE. The primary difference between Vim and NeoVim is the language used for extension and configuration; Vim relies on Vimscript while NeoVim leverages Lua. <br>
+
+### Additional Resources
+[https://intellipaat.com/blog/what-is-pycharm/](https://intellipaat.com/blog/what-is-pycharm/) <br>
+[https://neovim.io/](https://neovim.io/)
+
 # Terminal Management (tmux)
 Tmux is a terminal multiplexer; it allows you to create several "pseudo terminals" from a single terminal. This is very useful for running multiple programs with a single connection, such as when you're remotely connecting to a machine using Secure Shell (SSH). <br>
 
@@ -46,7 +58,6 @@ List available windows <br>
 [https://tmuxcheatsheet.com/](https://tmuxcheatsheet.com/) <br>
 [https://gist.github.com/MohamedAlaa/2961058](https://gist.github.com/MohamedAlaa/2961058) <br>
 [https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/) <br>
-
 
 # Virtual Environments (venv)
 Tools such as `venv` support the creation of lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories. A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available. <br>
