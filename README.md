@@ -78,13 +78,15 @@ Deactivate virtual environment <br>
 ### Package Management
 When used from within an active virtual environment, common installation tools such as pip will install Python packages into a virtual environment without needing to be told to do so explicitly. <br>
 
-Install specific package <br>
+Install a specific package <br>
 `pip install <package-name>` <br>
 
 Install packages from a requirements.txt file <br>
 `pip install -r requirements.txt` <br>
 
 ### Additional Resources
-[https://www.youtube.com/watch?v=28eLP22SMTA&t=444s]
+[https://packaging.python.org/en/latest/guides/tool-recommendations/](https://packaging.python.org/en/latest/guides/tool-recommendations/) <br>
+[https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) <br>
+[https://www.youtube.com/watch?v=28eLP22SMTA&t=444s](https://www.youtube.com/watch?v=28eLP22SMTA&t=444s) <br>
 
 # Version Control (git)
