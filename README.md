@@ -1,4 +1,4 @@
-# Dev Workflow Reference Materials
+# <div align="center">Dev Workflow Reference Materials</div>
 
 # tmux
 Tmux is a terminal multiplexer; it allows you to create several "pseudo terminals" from a single terminal. This is very useful for running multiple programs with a single connection, such as when you're remotely connecting to a machine using Secure Shell (SSH). <br>
