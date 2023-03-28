@@ -6,7 +6,7 @@
 PyCharm is a hybrid platform developed by JetBrains as an IDE for Python. It provides users with a beginner-friendly, streamlined development environment. <br>
 
 ### Vim/NeoVim
-Vim/NeoVim are highly configurable text editors built on Unix Vi that can be used for Python development. With proper configuration, they can be a fast and powerful alternative to an IDE. The primary difference between Vim and NeoVim is the language used for extension and configuration; Vim relies on Vimscript while NeoVim leverages Lua. <br>
+Vim/NeoVim are highly configurable text editors built on Unix Vi that can be used for Python development. With proper configuration, they can be a fast and powerful alternative to an IDE. The primary difference between Vim and NeoVim is which language is used for extension and configuration; Vim relies on Vimscript while NeoVim leverages Lua. <br>
 
 ### Additional Resources
 [https://intellipaat.com/blog/what-is-pycharm/](https://intellipaat.com/blog/what-is-pycharm/) <br>
