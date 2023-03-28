@@ -66,7 +66,7 @@ The process for creating and activating a virtual environment varies by tool and
 
 NOTE: Online resources may reference "virtualenv"; this is not the recommended tool for Python 3+. <br>
 
-### Setup
+### Setup and Use
 #### Unix/macOS
 Create a new virtual environment <br>
 `python{version} -m venv {venv-name}` <br>
