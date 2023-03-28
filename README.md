@@ -49,29 +49,42 @@ List available windows <br>
 
 
 # venv
-Tools such as virtualenv support the creation of lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories. A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available. <br>
+Tools such as venv support the creation of lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories. A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available. <br>
 
-The process for creating and activating a virtual environment varies by tool and OS. <br>
+The process for creating and activating a virtual environment varies by tool and OS. Virtual environment should be created in the root folder of a project. <br>
 
-### Mac OS
-Install virtualenv to system Python <br>
-`pip install virtualenv` <br>
+NOTE: Online resources may reference "virtualenv"; this is not the recommended tool for Python 3+. <br>
 
-NOTE: A project virtual environment should be created at the project root. <br>
-
+### Unix/macOS
 Create a new virtual environment <br>
 `python{version} -m venv {venv-name}` <br>
 
 Activate virtual environment <br>
-`source venv/bin/activate` <br>
+`source {venv-name}/bin/activate` <br>
+
+Deactivate virtual environment <br>
+`deactivate` <br>
+
+### Windows
+Create a new virtual environment <br>
+`{path/to/python} -m venv {venv-name}` <br>
+
+Activate virtual environment <br>
+`.\{venv-name}\Scripts\activate` <br>
+
+Deactivate virtual environment <br>
+`deactivate` <br>
 
 ### Package Management
 When used from within an active virtual environment, common installation tools such as pip will install Python packages into a virtual environment without needing to be told to do so explicitly. <br>
 
 Install specific package <br>
-`pip install <package-name>`
+`pip install <package-name>` <br>
 
-Install packages from a requirements.txt file
-`pip install -r requirements.txt`
+Install packages from a requirements.txt file <br>
+`pip install -r requirements.txt` <br>
+
+### Additional Resources
+[https://www.youtube.com/watch?v=28eLP22SMTA&t=444s]
 
 # git
