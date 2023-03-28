@@ -49,7 +49,7 @@ List available windows <br>
 
 
 # venv
-Tools such as venv support the creation of lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories. A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available. <br>
+Tools such as `venv` support the creation of lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories. A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available. <br>
 
 The process for creating and activating a virtual environment varies by tool and OS. Virtual environment should be created in the root folder of a project. <br>
 
