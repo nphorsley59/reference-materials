@@ -1,6 +1,6 @@
 # <div align="center">Dev Workflow Reference Materials</div>
 
-# tmux
+# Terminal Management (tmux)
 Tmux is a terminal multiplexer; it allows you to create several "pseudo terminals" from a single terminal. This is very useful for running multiple programs with a single connection, such as when you're remotely connecting to a machine using Secure Shell (SSH). <br>
 
 Tmux also decouples your programs from the main terminal, protecting them from accidentally disconnecting. You can detach tmux from the current terminal and all your programs will continue to run safely in the background. Later, you can reattach tmux to the same or a different terminal. <br>
@@ -48,7 +48,7 @@ List available windows <br>
 [https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/) <br>
 
 
-# venv
+# Virtual Environments (venv)
 Tools such as `venv` support the creation of lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories. A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available. <br>
 
 The process for creating and activating a virtual environment varies by tool and OS. Virtual environment should be created in the root folder of a project. <br>
@@ -87,4 +87,4 @@ Install packages from a requirements.txt file <br>
 ### Additional Resources
 [https://www.youtube.com/watch?v=28eLP22SMTA&t=444s]
 
-# git
+# Version Control (git)
