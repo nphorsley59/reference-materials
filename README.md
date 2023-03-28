@@ -1,6 +1,6 @@
 # <div align="center">Dev Workflow Reference Materials</div>
 
-# Writing Code (PyCharm, Vim/NeoVim)
+## WRITING CODE (PyCharm, Vim/NeoVim)
 
 ### PyCharm
 PyCharm is a hybrid platform developed by JetBrains as an IDE for Python. It provides users with a beginner-friendly, streamlined development environment. <br>
@@ -12,7 +12,7 @@ Vim/NeoVim are highly configurable text editors built on Unix Vi that can be use
 [https://intellipaat.com/blog/what-is-pycharm/](https://intellipaat.com/blog/what-is-pycharm/) <br>
 [https://neovim.io/](https://neovim.io/)
 
-# Terminal Management (tmux)
+## TERMINAL MANAGEMENT (tmux)
 Tmux is a terminal multiplexer; it allows you to create several "pseudo terminals" from a single terminal. This is very useful for running multiple programs with a single connection, such as when you're remotely connecting to a machine using Secure Shell (SSH). <br>
 
 Tmux also decouples your programs from the main terminal, protecting them from accidentally disconnecting. You can detach tmux from the current terminal and all your programs will continue to run safely in the background. Later, you can reattach tmux to the same or a different terminal. <br>
@@ -59,7 +59,7 @@ List available windows <br>
 [https://gist.github.com/MohamedAlaa/2961058](https://gist.github.com/MohamedAlaa/2961058) <br>
 [https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/](https://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/) <br>
 
-# Virtual Environments (venv)
+## VIRTUAL ENVIRONMENTS (venv)
 Tools such as `venv` support the creation of lightweight “virtual environments”, each with their own independent set of Python packages installed in their site directories. A virtual environment is created on top of an existing Python installation, known as the virtual environment’s “base” Python, and may optionally be isolated from the packages in the base environment, so only those explicitly installed in the virtual environment are available. <br>
 
 The process for creating and activating a virtual environment varies by tool and OS. Virtual environment should be created in the root folder of a project. <br>
@@ -100,7 +100,7 @@ Install packages from a requirements.txt file <br>
 [https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) <br>
 [https://www.youtube.com/watch?v=28eLP22SMTA&t=444s](https://www.youtube.com/watch?v=28eLP22SMTA&t=444s) <br>
 
-# Version Control (git)
+## VERSION CONTROL (git)
 Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. It allows you to revert selected files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using version control also generally means that if you screw things up or lose files, you can easily recover. With git, you get all this for very little overhead. <br>
 
 Git is the industry standard for version control. <br>
