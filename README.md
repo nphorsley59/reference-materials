@@ -16,10 +16,8 @@ PyCharm is a popular Python Integrated Development Environment (IDE) that offers
 2. Can be expensive: PyCharm has a free Community edition, but the Professional edition can be expensive for individual developers or small teams.
 3. Large file sizes: PyCharm has large file sizes, which can take some time to download and install.
 
-Overall, PyCharm is a powerful IDE that offers many features and can be a great choice if you are looking for a comprehensive development environment. However, it may not be the best choice if you are looking for a lightweight or low-cost tool, or have limited system resources. <br>
-
 ### Vim/NeoVim
-Vim/NeoVim are highly configurable text editors built on Unix Vi. They are popular text editors among developers and system administrators and are known for speed, versatility, and powerful editing capabilities. With proper configuration, they can be a fast and powerful alternative to an IDE. The primary difference between Vim and NeoVim is which language is used for extension and configuration; Vim relies on Vimscript while NeoVim leverages Lua. <br>
+Vim/NeoVim are popular text editors that are known for speed and versatility. With proper configuration, they can be a powerful alternative to an IDE. The primary difference between Vim and NeoVim is which language is used for extension and configuration; Vim relies on Vimscript while NeoVim leverages Lua. <br>
 
 **Pros:**
 1. Speed: Vim is fast, responsive, and lightweight, and can handle large files with ease.
@@ -32,8 +30,6 @@ Vim/NeoVim are highly configurable text editors built on Unix Vi. They are popul
 2. Keyboard-based interface: While the keyboard-based interface can be efficient, it can also be difficult to learn and remember all the shortcuts, especially for developers who are used to a mouse-based interface.
 3. Limited GUI capabilities: Vim's graphical user interface (GUI) is relatively basic compared to other text editors, which can make it less appealing to some developers.
 4. Limited features out of the box: Vim has fewer features out of the box compared to some other text editors, which can make it less appealing to some developers.
-
-Overall, Vim is a powerful and versatile text editor that offers many benefits. However, its steep learning curve and keyboard-based interface can be challenging for new users, and its limited GUI capabilities and features out of the box may make it less appealing to some developers. <br>
 
 ### Additional Resources
 [https://intellipaat.com/blog/what-is-pycharm/](https://intellipaat.com/blog/what-is-pycharm/) <br>
