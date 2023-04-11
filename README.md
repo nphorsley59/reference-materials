@@ -1,4 +1,4 @@
-# <div align="center">Dev Workflow Reference Materials</div>
+# <div align="center">Workflow Reference Materials</div>
 
 ## WRITING CODE (PyCharm, Vim/NeoVim)
 
